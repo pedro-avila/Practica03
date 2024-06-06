@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body{
+    background-color: cornflowerblue;
+}
+
+h1{
+    text-align: center;
+    color: gainsboro;
+    font-size: 50px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+/*Para crear una variable de color se inicia siempre con - - 
+Para usar la variable escribirmos var("nombre de la variable")*/
+:root{
+    --color_uno: #1a825f;
+    --color_dos: #545bae;
+    --color_tres: #ee9528;
+}
+
+.flex_container{
+    background-color: rgb(238, 218, 154);
+    border: solid black 5px;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10xp;
+}
+
+.box_01{
+    background: linear-gradient(to bottom, #ffffff57, #39b1e97e), url("https://cdn.pixabay.com/photo/2020/08/31/09/33/beach-5531919_1280.jpg") center no-repeat;
+    background-size: cover;
+    background-color: chartreuse;
+    width: 290px;
+    height: 150px;
+    line-height: 75px;
+    text-align: center;
+    border: solid black 5px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box_02{
+    background: linear-gradient(to bottom, #ffffff57, #d47b2875), url("https://cdn.pixabay.com/photo/2014/05/27/15/22/deckchairs-355596_1280.jpg") center no-repeat;
+    background-size: cover;
+    background-color: rebeccapurple;
+    width: 290px;
+    height: 150px;
+    line-height: 75px;
+    text-align: center;
+    border: solid black 5px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box_03{
+    background: linear-gradient(to bottom, #ffffff57, #036a316b), url("https://cdn.pixabay.com/photo/2022/06/14/17/30/beach-7262493_1280.jpg") center no-repeat;
+    background-size: cover;
+    background-color: rgb(226, 82, 173);
+    width: 290px;
+    height: 150px;
+    line-height: 75px;
+    text-align: center;
+    border: solid black 5px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box_04{
+    background: linear-gradient(to bottom, #ffffff57, #036a316b), url("https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704_1280.jpg") center no-repeat;
+    background-size: cover;
+    background-color: rgb(42, 129, 160);
+    width: 290px;
+    height: 150px;
+    line-height: 75px;
+    text-align: center;
+    border: solid black 5px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
